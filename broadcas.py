@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import broadcast
 
-# Initialize a Spark session
+# Initialize a Spark Session
 spark = SparkSession.builder.appName("Broadcast Join with CSV Example").getOrCreate()
 
 # Load CSV files into DataFrames
